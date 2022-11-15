@@ -1,0 +1,51 @@
+nav {
+  width: 100%;
+  height: 44px;
+  background-color: #80b42d;
+}
+
+ul {
+  height: 100%;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+ul > li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  padding: 13px 12px;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+li.select {
+  height: 100%;
+  background-color: #4d8100;
+}
+
+.login {
+  margin-left: auto;
+  height: 100%;
+  padding: 11px 18px !important;
+  margin-top: 2px;
+  border-radius: 10px 0 10px 10px;
+  background: #1a4e00;
+}
+
+.button {
+  color: #fff;
+  background: #1a4e00;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+}

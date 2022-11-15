@@ -1,0 +1,29 @@
+.title{
+    margin: 40px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.1em;
+    color: #349375;
+}
+
+div#accordionPanels{
+    margin-bottom: 30px;
+}
+
+.accordion-header{
+    margin: 10px;
+}
+
+button{
+    font-size: 20px;
+}
+
+div.accordion-body{
+    font-size: 17px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #80B42D;
+}

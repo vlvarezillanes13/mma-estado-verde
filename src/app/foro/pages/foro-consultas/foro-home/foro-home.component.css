@@ -1,0 +1,19 @@
+div.row{
+    margin: 20px;
+}
+
+div.card:hover{
+    background-color: #80B42D;
+    color: #fff;
+}
+
+
+.card-title{
+    font-size: 25px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

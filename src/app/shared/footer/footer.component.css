@@ -1,0 +1,22 @@
+div#principal{
+    background-color: #343A43;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div.content{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto !important;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+img{
+    height: 130px;
+}
+
+div.aside > p {
+    color:#b9b9b9
+}
