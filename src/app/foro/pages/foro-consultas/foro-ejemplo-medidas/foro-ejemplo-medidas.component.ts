@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ForoEjemploMedidasComponent implements OnInit {
 
 
-  pdfSrc: string = "https://www.docdroid.net/0eFeLsY/pdf-medidas-pdf";
+  pdfSrc: string = "/assets/PDF-MEDIDAS.pdf";
   constructor() { /* TODO document why this constructor is empty */ }
 
   ngOnInit(): void { /* TODO document why this method 'ngOnInit' is empty */ }
