@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ForoConsultasComponent } from './foro-consultas.component';
 import { ForoHomeComponent } from './foro-home/foro-home.component';
 import { ForoPreguntasFrecuentesComponent } from './foro-preguntas-frecuentes/foro-preguntas-frecuentes.component';
+import { ForoEjemploMedidasComponent } from './foro-ejemplo-medidas/foro-ejemplo-medidas.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,10 @@ const routes: Routes = [
         path:'home',
         component:ForoHomeComponent
 
+      },
+      {
+        path:'medidas',
+        component:ForoEjemploMedidasComponent
       },
       {
         path:'preguntas',

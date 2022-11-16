@@ -2,18 +2,20 @@ export const LISTA_PREGUNTAS_FRECUENTES = [
     {
         pregunta:'¿Dónde se entrega la documentación solicitada para postular a la pre-acreditación?',
         respuesta:`
-            <p>La información solicitada se entrega a través del Inicio de Sesión de esta plataforma,
-            donde deberá ingresar con su nombre de usuario y contraseña previamente otorgado.</p>
+            <p>La información solicitada se entrega iniciando sesión en la esquina superior
+            derecha de ésta página, donde la <strong>contraparte oficial</strong> de la institución deberá
+            ingresar con el nombre de usuario y contraseña creada por Estado Verde.</p>
 
-            <p>Una vez haya ingresado en la plataforma, en la parte inferior de la página principal,
-            presioné “Ingresar Formulario”.</p>
+            <p>Una vez haya ingresado en la plataforma, en la parte inferior de la página
+            principal, presioné “Ingresar Formulario”.</p>
+
             <p>En primer lugar, deberá seleccionar el nivel de acreditación al cual postula,
-            seguidamente, deberá ingresar la documentación de los 15 componentes en formato
-            PDF.</p>
+            seguidamente, deberá ingresar la documentación de los 15 componentes en
+            formato PDF, con un tamaño no superior a 30 MB.</p>
 
-            <p>Cada vez que ingresé la documentación solicitada deberá seleccionar el botón
-            “Guardar” que se encuentra al final del formulario, esta opción permitirá cambiar la
-            información cuanta veces deseé.</p>
+            <p>Cada vez que ingresé la documentación solicitada deberá seleccionar el
+            botón “Guardar” que se encuentra al final del formulario, esta opción
+            permitirá cambiar la información cuanta veces deseé.</p>
             
             <p>Una vez completada toda la documentación, debe presionar el botón “Enviar
             Formulario” que se encuentra al final de la página principal.</p>
@@ -40,7 +42,7 @@ export const LISTA_PREGUNTAS_FRECUENTES = [
             <table class="table">
                 <thead>
                     <tr class="text-center bgGreen">
-                        <th>Item</th>
+                        <th>Ítem</th>
                         <th>Respaldo</th>
                     </tr>
                 </thead>
@@ -53,11 +55,18 @@ export const LISTA_PREGUNTAS_FRECUENTES = [
                         <td>
                             <ul>
                                 <li>
-                                    Resolución o documentación similar. 
+                                    Informe que indique y describa vigencia, difusión e
+                                    implementación.
                                 </li>
                                 <li>
-                                    Respaldo de consulta a funcionarios/as (correos,
-                                    lista de asistencia, encuestas, etc.)
+                                    Documento con resumen descriptivo.
+                                </li>
+                                <li>
+                                    Copia de política formalizada.
+                                </li>
+                                <li>
+                                    Medios de prueba de difusión e implementación
+                                    (fotografías, informativos, convocatorias, etc.)
                                 </li>
                             </ul>
                         </td>
@@ -69,160 +78,208 @@ export const LISTA_PREGUNTAS_FRECUENTES = [
                         <td>
                             <ul>
                                 <li>
-                                    Orden de compra, TDR.
+                                    Indicar responsable de compra.
                                 </li>
                                 <li>
-                                    Registro de Impresiones.
+                                    Documentos que evidencien gasto de papel anual
+                                    por funcionario(a) y N° de resmas.
                                 </li>
                                 <li>
-                                    Registro de medio de comunicación utilizado para
-                                    difundir actividades de concientización o similar.
+                                    Porcentaje de uso de papel reciclado.
                                 </li>
                                 <li>
-                                    Convenios con empresas de reciclaje.
+                                    Porcentaje de publicaciones en papel reciclado.
                                 </li>
                                 <li>
-                                    Registros fotográficos, etc.
+                                    Porcentaje de publicaciones digitales.
+                                </li>
+                                <li>
+                                    Cantidad de papel reciclado por funcionario(a) al
+                                    año.
+                                </li>
+                                <li>
+                                    Cantidad de impresiones/fotocopias por
+                                    funcionario(a) al año.
+                                </li>
+                                <li>
+                                    Informe del proceso de impresión y fotocopiado.
+                                </li>
+                                <li>
+                                    Indicar otros aspectos en la utilización del papel.
+                                </li>
+                                <li>
+                                    Otros documentos de respaldo.
                                 </li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td class="bgGreen">
-                           Gestión Energética
+                           Gestión residuos
                         </td>
                         <td>
                             <ul>
                                 <li>
-                                    Cuentas de luz o documento similar para acreditar
-                                    gastos por concepto de consumo.
+                                    Ubicación y tipo de contenedores para reciclaje.
                                 </li>
                                 <li>
-                                    Registro de medio de comunicación utilizado para
-                                    difundir actividades de concientización o similar.
+                                    Cantidad de residuos reciclados al mes según
+                                    material.
                                 </li>
                                 <li>
-                                    OC, TDR en el caso de instalaciones, recambio de
-                                    luminarias, etc.
+                                    Cantidad de basura total al mes Kg/funcionario(a).
                                 </li>
                                 <li>
-                                    Resoluciones o documento similar para aprobación
-                                    de política de compra pública.
+                                    Cantidad de toners utilizados al mes.
+                                </li>
+                                <li>
+                                    Informe proceso de gestión de materiales
+                                    reciclados.
+                                </li>
+                                <li>
+                                    Informe procedimiento y materiales de aseo.
+                                </li>
+                                <li>
+                                    Informe sobre punto limpio y centro de acopio.
+                                </li>
+                                <li>
+                                    Otros documentos de respaldo.
                                 </li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td class="bgGreen">
-                        Gestión de residuos
+                        Gestión hídrica
                         </td>
                         <td>
                             <ul>
                                 <li>
-                                    Certificado de retiro de residuos.
+                                    Cantidad de agua utilizada LT/funcionario(a) al año.
                                 </li>
                                 <li>
-                                    Registro de medio utilizado para actividades de
-                                    concientización.
+                                    Informe de artefactos (consumo hídrico).
                                 </li>
                                 <li>
-                                    Resoluciones o documentación similar para
-                                    aprobación de política de compra pública.
+                                    Composición de materiales de aseo.
                                 </li>
                                 <li>
-                                    Correos electrónicos para actividades de difusión.
+                                    Medios de verificación y otros documentos de
+                                    respaldo.
                                 </li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td class="bgGreen">
-                        Compras Sustentables y Economía Circular
+                            Gestión energética
                         </td>
                         <td>
                             <ul>
                                 <li>
-                                    Documentos o correos electrónicos para registro de
-                                    inventario.
+                                    Cantidad de electricidad utilizada
+                                    KW/funcionarios(as) al año.
                                 </li>
                                 <li>
-                                    Resoluciones o documento similar para aprobación
-                                    de política de compra pública.
+                                    Uso del ascensor.
                                 </li>
                                 <li>
-                                    OC, TDR, Bases de licitación.
+                                    Catastro de equipos computacionales y artefactos
+                                    eléctricos.
                                 </li>
                                 <li>
-                                    Registros fotográficos.
+                                    Informe de uso de equipos y artefactos eléctricos en
+                                    ausencia de los(as) funcionarios(as).
                                 </li>
                                 <li>
-                                    Fichas técnicas de productos o servicios.
+                                    Medios de verificación y otros documentos de
+                                    respaldo.
                                 </li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td class="bgGreen">
-                        Transporte
+                            Compras
+                            sustentables
                         </td>
                         <td>
                             <ul>
-                                <li>Registro de medio utilizado para actividades de
-                                concientización.</li>
+                                <li>Compras
+                                sustentables.</li>
 
-                                <li>OC, TDR, Registro fotográfico, informe de servicios
-                                generales para actividades de implementación de
-                                bicicleteros.</li>
+                                <li>Productos/servicios adquiridos con criterios de
+                                sustentabilidad.</li>
 
-                                <li>Lista de asistencia, certificado de agencia de
-                                sostenibilidad energética, registro fotográfico para
-                                actividades de capacitación.</li>
+                                <li>LProductos/servicios adquiridos con criterios de
+                                sustentabilidad.</li>
 
-                                <li>OC, TDR, informes para actividades de
-                                mantenimiento de flota institucional.</li>
+                                <li>Productos/servicios adquiridos con criterios de
+                                sustentabilidad.</li>
 
-                                <li>Resoluciones o documentación similar para
-                                aprobación de protocolo o política de adquisición de
-                                flota, servicios.</li>
+                                <li>Medios de verificación y otros documentos de
+                                respaldo.</li>
                                 
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td class="bgGreen">
-                            Educación ambiental interna
+                            Baja de bienes muebles
                         </td>
                         <td>
                             <ul>
-                                <li>Lista de asistencia, registro fotográfico,
-                                presentaciones, calendario o programa de
-                                capacitaciones para actividades relacionadas a
-                                capacitaciones e inducciones.</li>
+                                <li>Documento de procedimientos a seguir para los
+                                bienes muebles que sido dado de baja.</li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td class="bgGreen">
-                            Baja de Bienes Muebles
+                            Transporte
                         </td>
                         <td>
                             <ul>
-                                <li>Resolución (o documentación similar), correo
-                                electrónico u otro medio de comunicación utilizado
-                                para la generación de un protocolo, reglamento o
-                                compromiso que indique procedimiento para bienes
-                                muebles.</li>
+                                <li>Catastro de vehículos híbridos y convencionales.</li>
+                                <li>Declaración de existencia/ausencia de política de
+                                fomento en el uso de la bicicleta y vehículo
+                                compartido.</li>
+                                <li>Análisis de encuesta aplicada a funcionarios(as).</li>
+                                <li>Informe de contratos de transporte terrestre.</li>
+                                <li>Informe de uso de combustible.</li>
+                                <li>Medios de verificación y otros documentos de
+                                respaldo.</li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td class="bgGreen">
-                            Programa Huella-Chile
+                            Educación ambiental
+                            interna
                         </td>
                         <td>
                             <ul>
-                                <li>Comprobante de registro por programa Huella-Chile.</li>
-                                <li>Comprobante de acreditación por programa Huella-Chile</li>
+                                <li>Existencia/ausencia de programa de capacitación
+                                ambiental para funcionarios(as).</li>
+                                <li>Programa de capacitación.</li>
+                                <li>Catastro de elementos de difusión ambiental.</li>
+                                <li>Planilla funcionarios(as) por estamento y género.</li>
+                                <li>Medios de verificación (presentaciones, fotografías,
+                                calendarios, listas de asistencias, etc.)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bgGreen">
+                            Registro en Huella Chile
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Comprobante de registro en Huella-Chile.</li>
+                                <li>Comprobante de acreditación recibida (sólo si
+                                corresponde).</li>
+                                <li>Medios de verificación de capacitaciones y otros
+                                documentos de respaldo.</li>
                             </ul>
                         </td>
                     </tr>
@@ -232,9 +289,9 @@ export const LISTA_PREGUNTAS_FRECUENTES = [
                         </td>
                         <td>
                             <ul>
-                                <li>Correo electrónico u otro medio de comunicación
-                                para actividades de campaña interna y difusión
-                                ambiental interna.</li>
+                                <li>Respaldo que acredite existencia de una campaña
+                                comunicacional sobre actividades ambientales de la
+                                institución.</li>
                             </ul>
                         </td>
                     </tr>
@@ -243,7 +300,7 @@ export const LISTA_PREGUNTAS_FRECUENTES = [
          `
     },
     {
-        pregunta:'¿Cuales son las diferencias entre medida, meta y respaldo?',
+        pregunta:'Diferencias entre medidas y metas en el plan anual',
         respuesta:`
             <table class="table">
                 <thead>
@@ -413,7 +470,7 @@ export const LISTA_PREGUNTAS_FRECUENTES = [
             <p>Si se pueden realizar metas no cuantitativas, como por ejemplo, en el caso de que una
             entidad tenga como medida la elaboración de una política interna de autogestión
             ambiental, la meta corresponde a la aprobación de la respectiva política mediante
-            resolución o documentación similar.</p>
+            resolución o documentación oficial similar.</p>
         `
     },
     {
@@ -426,8 +483,8 @@ export const LISTA_PREGUNTAS_FRECUENTES = [
         este punto verde.</p>
 
         <p>Por su parte, el concepto de <strong>educación ambiental</strong> corresponde a aquel proceso donde
-        se transmiten conocimiento y enseñanzas a la ciudadanía con el fin de que esta adquiera
-        conocimiento sobre la importancia del cuidado del medio ambiente y la naturaleza. Una
+        se transmiten enseñanzas a la ciudadanía, con el fin de que esta adquiera
+        conocimiento sobre la importancia del cuidado del medio ambiente y la naturaleza. Un
         ejemplo de esto, son los programas de capacitación ambiental dirigida a funcionarios/as
         de un organismo.</p>
         `
@@ -435,8 +492,19 @@ export const LISTA_PREGUNTAS_FRECUENTES = [
     {
         pregunta:'¿Debo incluir medidas y metas en todos los componentes?',
         respuesta:`
-            No necesariamente, ya que se pueden homologar medidas que involucran otros
-            componentes.
+            <p>Sí, se debe presentar medidas y metas en todos los componentes. No obstante, si un
+            servicio previo a la suscripción del convenio, ya ha realizado medidas con enfoque
+            ambiental anteriormente, podrá dar la continuidad o mejoras a estas actividades en la
+            formulación del plan anual.</p>
+
+            <p>
+            Ejemplo:
+                <ul>
+                    <li>El mantenimiento de luminarias LED.</li>
+                    <li>El mantenimiento de los puntos verdes o contenedores de reciclaje.</li>
+                    <li>La institución cuenta con sistemas de digitalización de documentos.</li>
+                </ul>
+            </p>
         `
     }
 ]
