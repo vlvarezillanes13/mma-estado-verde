@@ -13,5 +13,5 @@ pdf-viewer{
     flex-direction: column;
     justify-content: center;
     width: 110%;
-    height: calc( 100vh - 400px);
+    height: calc( 100vh - 100px);
 }
